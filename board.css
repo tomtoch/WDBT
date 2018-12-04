@@ -1,0 +1,143 @@
+:root{
+    --tegelkleur : tomato;
+}
+
+.tegel{
+    
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border: 3px solid var(--tegelkleur);
+    border-radius: 25px;
+
+    /* var(--tegelkleur); */
+}
+.tegel:nth-child(1){
+    position: absolute;
+    top:0;
+    left:0;
+    
+    /* margin-top: 10px; */
+    background-color: blue;
+}
+.tegel:nth-child(2){
+    position: absolute;
+    top:0;
+    right:0;
+
+    /* float: left; */
+    background-color: blue;
+}
+.tegel:nth-child(3){
+    position: absolute;
+    bottom:0;
+    left:0;
+    
+    /* margin-top: 10px; */
+    background-color: blue;
+}
+.tegel:nth-child(4){
+    position: absolute;
+    bottom:0;
+    right:0;
+    
+    /* margin-top: 10px; */
+    background-color: blue;
+}
+.player1{
+    position: relative;
+    background-color: darkblue;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.player2{
+    position: absolute;
+    background-color: rgb(220, 223, 46);
+    width: 150px;
+    height: 150px;
+    top:0;
+    right:0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.player3{
+    position: absolute;
+    background-color: darkred;
+    width: 150px;
+    height: 150px;
+    bottom:0;
+    left:0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;}
+.player4{
+    position: absolute;
+    background-color: darkgreen;
+    width: 150px;
+    height: 150px;
+    bottom:0;
+    right:0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;}
+.naam{
+    border: solid 2px black;
+    position: relative;
+    top: 45%;
+    text-align:center;
+}
+.dice{
+    position: absolute;
+    top :35%;
+    left: 45%;
+    height: 100px;
+    width: 100px;
+}
+.bordtegel{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border: 3px solid var(--tegelkleur);
+    border-radius: 25px;   
+}
+.bordgrid{
+    position: absolute;
+    top:0;
+    display: grid; 
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+/* .rij:nth-child(-n+4){
+position: absolute;
+top:35%;
+margin-left: 5px;
+} */
+.rij:nth-child(1){
+    position: fixed;
+    top:35%;
+    margin-left: 5px;
+    }
+.rij:nth-child(2){
+    position:fixed;
+    top:35%;
+    left:13%;
+    }    
+ .rij:nth-child(3){
+    position: fixed;
+    top:35%;
+    left:26%;
+    } 
+   .rij:nth-child(4){
+    position: fixed;
+    top:35%;
+    left:39%;
+    }  
+    .rij:nth-child(11){
+        position: fixed;
+        top:35%;
+        right:0px;
+        }       
