@@ -1,0 +1,130 @@
+<!DOCTYPE>
+<html>
+<head>
+<title> Human, don't irritate yourself</title>
+<style>
+    :root{
+        --menukleur: rgb(168, 37, 37);
+    }
+.logo {
+
+margin-right:30%;
+margin-left:30%;
+text-align: center;
+font-family:verdana;
+font-size: 15;
+
+}
+
+/* .quit{
+    margin-left: 44.420%;
+    
+} */
+/* .quit:hover{
+background-color: darkblue;
+color:floralwhite;
+} */
+.knop:hover{
+background-color: var(--menukleur);
+color:floralwhite;
+width: 180px;
+margin-right: 49.4%;
+margin-left: 49.4%;
+}
+.knop{
+    color:black;
+    margin-right: 50%;
+    margin-left:50%;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+.menu{  
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    border: 3px solid var(--menukleur);
+    transition-duration: 0.1s;
+    text-align: center;
+    width: 169px;
+    height: 50px;
+    padding: 16px 32px;
+}
+.stats{
+    /* float:left; */
+   
+    padding: 20px; 
+    background-color: teal;
+    
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns:  auto auto auto;
+}
+a:link{
+    color:black;
+}
+</style>
+</head>
+<body style="font-family:Verdana, Geneva, Tahoma, sans-serif; background-color:aliceblue">
+   
+    <div class=logo>
+    <h1 >
+        <img src="images/mejn.png" alt="Human dont irritate yourself" style="height: 300px">
+           
+    </h1>
+    </div>
+<div class=grid>
+            <div id= omghoog class = "stats">
+            <p>
+                Games played:   0</p>
+            <p> Ragequits:      0</p>
+            <p>  Players online: 0
+            </p>
+        </div>
+    <div id=omhoog>
+        <a  href="2player.html">
+        <p  class = "menu knop">
+            Press to Start a 2 player game
+        </p>
+</a>
+<a  href="4player.html">
+        <p class = "menu knop">
+    Press to Start a 4 player game
+        </p>
+</a>
+        <a onclick="RulesAlert()">
+    <p class = "menu knop">
+        Rules
+        </p>
+        <script>
+        function RulesAlert() {
+            alert("Overview Ludo board diagram Two, three, or four can play, without partnerships.[d] At the beginning of the game, each player's four tokens are out of play and staged in the player's yard (one of the large corner areas of the board in the player's colour). When able to, the players will enter their tokens one per time on their respective starting squares, and proceed to race them clockwise around the board along the game track (the path of squares not part of any player's home column). When reaching the square below his home column, a player continues by moving tokens up the column to the finishing square. The rolls of a single die[5][7] control the swiftness of the tokens, and entry to the finishing square requires a precise roll from the player. The first to bring all their tokens to the finish wins the game. The others often continue play to determine second-, third-, and fourth-place finishers. Gameplay Each player rolls the die; the highest roller begins the game. Players alternate turns in a clockwise direction. To enter a token into play from its yard to its starting square, a player must roll a 6.[5][7] If the player has no tokens yet in play and rolls other than a 6, the turn passes to the next player. Once a player has one or more tokens in play, he selects a token and moves it forwards along the track the number of squares indicated by the die. Players must always move a token according to the die value rolled. Passes are not allowed; if no move is possible, the turn moves to the next player. When a 6 is rolled, the player may choose to advance a token already in play, or may enter another staged token to its starting square. Rolling a 6 earns the player an additional or bonus roll in that turn. If the bonus roll results in a 6 again, the player earns an additional bonus roll.[e] If the third roll is also a 6, the player may not move and the turn immediately passes to the next player. Players may not end their move on a square they already occupy. If the advance of a token ends on a square occupied by an opponent's token, the opponent token is returned to its owner's yard. The returned token can be reentered into play only when the owner rolls a 6. Unlike Pachisi, there are no safe squares on the game track which protect a player's tokens from being returned. A player's home column squares are always safe, however, since no opponent may enter them.");
+                }
+            </script>
+        </a>
+        <a  href="INSERT HERE OTHER PAGE">
+                <p class = "menu knop">
+                    Credits 
+                    </p>
+                    </a>
+        
+
+    </div>
+    
+    <div>
+    <img src="images/wat.png" style="widows:750px;height:300px;">
+</div>
+</div>
+
+<div style="float:right;margin-top: 17%">
+Disclaimer ©
+</div>
+
+
+
+
+</body>
+</html>
