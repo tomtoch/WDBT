@@ -1,0 +1,175 @@
+
+             <!DOCTYPE>
+<html>
+<head>
+    <title>HDIY 2PLAYER-GAME</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/board.css">
+</head>
+<body style="background-color:aliceblue">
+
+        <div >
+                <a href=splash.html > <p class=back>Back to the main menu</p></a>
+            </div>
+    <!-- spelers -->
+    <div class = player1>
+            <div class=tegel></div>
+            <div class=tegel></div>
+            
+            <div class=tegel></div>
+            <div class=tegel></div>
+            <div class=naam>player1</div>
+    </div>
+
+    <div class = player2>
+        <div class=tegel></div>
+        <div class=tegel></div>
+        <div class=tegel></div>
+        <div class=tegel></div>
+        <div class=naam>player2</div>
+</div>
+
+<div class = player3>
+    <div class=tegel></div>
+    <div class=tegel></div>
+    <div class=tegel></div>
+    <div class=tegel></div>
+    <div class=naam>player3</div>
+</div>
+<div class = player4>
+    <div class=tegel></div>
+    <div class=tegel></div>
+    <div class=tegel></div>
+    <div class=tegel></div>
+    <div class=naam>player4</div>
+</div>
+
+<!-- dobbelsteen -->
+<div class="dice" id="dice">
+        <img class ="diceru" src="./images/1.png">
+        <script src="javascripts/dice.js"></script>
+    
+</div>
+
+<!--<div class=pawns id=blue1 style="background-color:blue; top:50px; left:50px;"></div>
+<div class=pawns id=blue2></div>
+<div class=pawns id=blue3></div>
+<div class=pawns id=blue4></div>
+<div class=pawns id=yellow1></div>
+<div class=pawns id=yellow2></div>
+<div class=pawns id=yellow3></div>
+<div class=pawns id=yellow4></div>
+<div class=pawns id=green1></div>
+<div class=pawns id=green2></div>
+<div class=pawns id=green3></div>
+<div class=pawns id=green4></div>
+<div class=pawns id=red1></div>
+<div class=pawns id=red2></div>
+<div class=pawns id=red3></div>
+<div class=pawns id=red4></div> -->
+<div class="canvas">
+<div class=bordgrid>
+    <div class = rij>
+        <div class = bordtegel id=1 style="background-color: darkblue">
+            <div class=arrow-right></div>
+        </div>
+        <div class = bordtegel id=40></div>
+        <div class = bordtegel id=39></div>
+        
+    </div>
+    <div class = rij>
+            <div class = bordtegel id=2></div>
+            <div class = bordtegel id=blues1 style="background-color: darkblue"></div>
+            <div class = bordtegel id=38></div>
+    </div>
+
+    <div class = rij>
+            <div class = bordtegel id=3></div>
+            <div class = bordtegel id=blues2 style="background-color: darkblue"></div>
+            <div class = bordtegel id=37></div>
+            
+  </div>
+  
+  <div class = rij>
+                <div class = bordtegel id=4></div>
+                <div class = bordtegel id=blues3 style="background-color: darkblue"></div>
+                <div class = bordtegel id=36></div>
+                
+       </div>
+       <div class = rij>
+            <div class = bordtegel id=9></div>
+            <div class = bordtegel id=8></div>
+            <div class = bordtegel id=7></div>
+            <div class = bordtegel id=6></div>
+            <div class = bordtegel id=5></div>
+            <div class = bordtegel id=blues4 style="background-color: darkblue"></div>
+            <div class = bordtegel id=35></div>
+            <div class = bordtegel id=34></div>
+            <div class = bordtegel id=33></div>
+            <div class = bordtegel id=32></div>
+            <div class = bordtegel id=31 style="background-color: darkred">
+                <div class=arrow-up></div>
+            </div>
+            
+        </div>
+        <div class = rij>
+            <div class = bordtegel id=10></div>
+            <div class = bordtegel id=yellows1 style="background-color: rgb(220, 223, 46)""></div>
+            <div class = bordtegel id=yellows2 style="background-color: rgb(220, 223, 46)"></div>
+            <div class = bordtegel id=yellows3 style="background-color: rgb(220, 223, 46)"></div>
+            <div class = bordtegel id=yellows4 style="background-color: rgb(220, 223, 46)"></div>
+            <div class = bordtegel style="background-color:tomato">
+            <div class=exit><p> HDIY</p></div>
+            </div>
+            <div class = bordtegel id=reds4 style="background-color: darkred"></div>
+            <div class = bordtegel id=reds3 style="background-color: darkred"></div>
+            <div class = bordtegel id=reds2 style="background-color: darkred"></div>
+            <div class = bordtegel id=reds1 style="background-color: darkred"></div>
+            <div class = bordtegel id=30></div>
+                
+            </div>
+            <div class = rij>
+                    <div class = bordtegel id = 11 style="background-color:rgb(220, 223, 46)">
+                        <div class=arrow-down></div>
+                    </div>
+            <div class = bordtegel id=12></div>
+            <div class = bordtegel id=13></div>
+            <div class = bordtegel id=14></div>
+            <div class = bordtegel id=15></div>
+            <div class = bordtegel id=greens4 style="background-color: darkgreen"></div>
+            <div class = bordtegel id=25></div>
+            <div class = bordtegel id=26></div>
+            <div class = bordtegel id=27></div>
+            <div class = bordtegel id=28></div>
+            <div class = bordtegel id=29></div>
+                    
+                </div>
+                <div class = rij>
+                        <div class = bordtegel id=16></div>
+                        <div class = bordtegel id=greens3 style="background-color: darkgreen"></div>
+                        <div class = bordtegel id=24></div>
+                        
+                    </div>
+                    <div class = rij>
+                            <div class = bordtegel id=17></div>
+                            <div class = bordtegel id=greens2 style="background-color: darkgreen"></div>
+                            <div class = bordtegel id=23></div>
+                            
+                        </div>
+                        <div class = rij>
+                                <div class = bordtegel id=18></div>
+                                <div class = bordtegel id=greens1 style="background-color: darkgreen"></div>
+                                <div class = bordtegel id=22></div>
+                                
+                            </div>
+                            <div class = rij    >
+                                    <div class = bordtegel id=19></div>
+                                    <div class = bordtegel id=20></div>
+                                    <div class = bordtegel id=21 style="background-color: darkgreen">
+                                        <div class=arrow-left></div>
+                                    </div>
+                                    
+                                </div>
+</div>
+</div>
+</body>
+</html>
